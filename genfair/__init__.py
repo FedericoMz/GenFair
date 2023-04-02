@@ -1,0 +1,1 @@
+from .genfair import GenFair
