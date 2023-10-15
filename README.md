@@ -19,3 +19,6 @@ DN and PP instances near a model’s decision boundary are removed, whereas DP a
 Preferential Sampling has four key limitations: it only works with **_one_** sensitive attribute, it only works with **_binary_** sensitive attribute (_Race_ should be binarized), it only **_duplicates_** existing data, and the user must know beforehand the discriminated value. 
 
 GenFair addresses all these points. The **Discrimination Test** identifies which values of a (potentially non-binary) sensitive attributes are discriminated, without the user’s input. In the **Instance Removal** step, instances closer to a model’s decision boundary are then removed, as in Preferential Sampling. The **Combination Test** finds the best combination of target values and values from multiple sensitive attributes in order to balance the dataset (e.g., Black Woman, Hired). These combinations are called constraint. Finally, a genetic algorithm called **_GenSyn_** (Genetic Synthesiser) creates new instances following the constraints, resulting in a fair dataset to be used with machine learning models.
+
+![image](https://github.com/FedericoMz/GenFair/assets/80719913/2d2c1672-95bb-4c29-a8c3-ada39887eb48)
+
