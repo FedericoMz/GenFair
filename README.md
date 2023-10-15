@@ -1,8 +1,8 @@
 # GenFair
 _A Genetic Fairness-Enhancing Data Generation Framework_
 
-**[Read the paper](https://github.com/FedericoMz/GenFair/blob/main/GenFair%20Additional%20Materials.pdf)**
-(and the [additional materials](https://github.com/FedericoMz/GenFair/blob/main/GenFair%20Tutorial.ipynb))
+**[Read the paper](https://link.springer.com/chapter/10.1007/978-3-031-45275-8_24)**
+(and the [additional materials](https://github.com/FedericoMz/GenFair/blob/main/GenFair%20Additional%20Materials.pdf))
 
 Do you want to use our algorithm? It's pretty easy, [**follow the tutorial!**](https://github.com/FedericoMz/GenFair/blob/main/GenFair%20Tutorial.ipynb)
 
