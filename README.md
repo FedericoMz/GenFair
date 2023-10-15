@@ -1,10 +1,10 @@
 # GenFair
 _A Genetic Fairness-Enhancing Data Generation Framework_
 
-**[Read the paper]([url](https://link.springer.com/chapter/10.1007/978-3-031-45275-8_24))**
-(and then check the [additional materials]([url](https://github.com/FedericoMz/GenFair/blob/main/GenFair%20Additional%20Materials.pdf)))
+**[Read the paper]([https://github.com/FedericoMz/GenFair/blob/main/GenFair%20Additional%20Materials.pdf])**
+(and then check the [additional materials]([https://github.com/FedericoMz/GenFair/blob/main/GenFair%20Tutorial.ipynb]))
 
-In practice, how can you run GenFair? **You might want to [follow the tutorial!]([url](https://github.com/FedericoMz/GenFair/blob/main/GenFair%20Tutorial.ipynb))**
+In practice, how can you run GenFair? **You might want to [follow the tutorial!]([https://github.com/FedericoMz/GenFair/blob/main/GenFair%20Tutorial.ipynb])**
 
 ## Background
 Many datasets used to train machine learning models are biased towards a particular group defined by a sensitive attribute, such as Women (for _Gender_), Black people (for _Race_), or people below a certain _Age_ threshold. 
