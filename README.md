@@ -11,7 +11,7 @@ Many datasets used to train machine learning models are biased towards a particu
 
 The _[Preferential Sampling](https://dtai.cs.kuleuven.be/events/Benelearn2010/submissions/benelearn2010_submission_18.pdf)_ algorithm attempts to “balance” the training dataset, mitigating its bias. The algorithm identifies four groups of instances: **D**iscriminated instances with a **P**ositive label (e.g., _Women, Hired_), **P**rivileged instances with a **N**egative label (e.g., _Men, Not-Hired_), **D**iscriminated instances with a **N**egative label, and **P**rivileged instances with a **P**ositive label.
 
-DN and PP instances near a model’s decision boundary are removed, whereas DP and PN instances are duplicated. It has been proved that a model trained on the “balanced” dataset makes more fair predictons.
+DN and PP instances near a model’s decision boundary are removed, whereas DP and PN instances are duplicated. It has been proved that a model trained on the balanced dataset makes more fair predictons.
 
 ## GenFair
 Preferential Sampling has four key limitations: it only works with **_one_** sensitive attribute, it only works with **_binary_** sensitive attribute (_Race_ should be binarized), it only **_duplicates_** existing data, and the user must know beforehand the discriminated value. 
